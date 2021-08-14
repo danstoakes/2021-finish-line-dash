@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Finish_Line_Dash_App: App {
+    let viewModel = ViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: viewModel)
         }
     }
 }

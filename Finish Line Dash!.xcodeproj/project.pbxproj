@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		05E2380D26C7DBFD007357C9 /* Finish_Line_Dash_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2380C26C7DBFD007357C9 /* Finish_Line_Dash_App.swift */; };
-		05E2380F26C7DBFD007357C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2380E26C7DBFD007357C9 /* ContentView.swift */; };
 		05E2381126C7DBFE007357C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E2381026C7DBFE007357C9 /* Assets.xcassets */; };
 		05E2381426C7DBFE007357C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E2381326C7DBFE007357C9 /* Preview Assets.xcassets */; };
 		05E2381F26C7DBFE007357C9 /* Finish_Line_Dash_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2381E26C7DBFE007357C9 /* Finish_Line_Dash_Tests.swift */; };
 		05E2382A26C7DBFE007357C9 /* Finish_Line_Dash_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2382926C7DBFE007357C9 /* Finish_Line_Dash_UITests.swift */; };
+		05E2383826C7DC39007357C9 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E2383726C7DC39007357C9 /* DiceView.swift */; };
+		05F560CC26C7E17E004E4697 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F560CB26C7E17E004E4697 /* Model.swift */; };
+		05F560D126C7E189004E4697 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F560CD26C7E189004E4697 /* ViewModel.swift */; };
+		05F560D226C7E189004E4697 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F560CE26C7E189004E4697 /* PlayerView.swift */; };
+		05F560D326C7E189004E4697 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F560CF26C7E189004E4697 /* TileView.swift */; };
+		05F560D426C7E189004E4697 /* ScrollingVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F560D026C7E189004E4697 /* ScrollingVGrid.swift */; };
+		05F560D626C7E294004E4697 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F560D526C7E294004E4697 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,6 @@
 /* Begin PBXFileReference section */
 		05E2380926C7DBFD007357C9 /* Finish Line Dash!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finish Line Dash!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E2380C26C7DBFD007357C9 /* Finish_Line_Dash_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finish_Line_Dash_App.swift; sourceTree = "<group>"; };
-		05E2380E26C7DBFD007357C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05E2381026C7DBFE007357C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05E2381326C7DBFE007357C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		05E2381526C7DBFE007357C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +50,13 @@
 		05E2382526C7DBFE007357C9 /* Finish Line Dash!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finish Line Dash!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E2382926C7DBFE007357C9 /* Finish_Line_Dash_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finish_Line_Dash_UITests.swift; sourceTree = "<group>"; };
 		05E2382B26C7DBFE007357C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E2383726C7DC39007357C9 /* DiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		05F560CB26C7E17E004E4697 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		05F560CD26C7E189004E4697 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		05F560CE26C7E189004E4697 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		05F560CF26C7E189004E4697 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		05F560D026C7E189004E4697 /* ScrollingVGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingVGrid.swift; sourceTree = "<group>"; };
+		05F560D526C7E294004E4697 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +107,17 @@
 		05E2380B26C7DBFD007357C9 /* Finish Line Dash! */ = {
 			isa = PBXGroup;
 			children = (
+				05F560CE26C7E189004E4697 /* PlayerView.swift */,
+				05F560D026C7E189004E4697 /* ScrollingVGrid.swift */,
+				05F560CF26C7E189004E4697 /* TileView.swift */,
+				05F560CD26C7E189004E4697 /* ViewModel.swift */,
+				05F560CB26C7E17E004E4697 /* Model.swift */,
 				05E2380C26C7DBFD007357C9 /* Finish_Line_Dash_App.swift */,
-				05E2380E26C7DBFD007357C9 /* ContentView.swift */,
+				05E2383726C7DC39007357C9 /* DiceView.swift */,
 				05E2381026C7DBFE007357C9 /* Assets.xcassets */,
 				05E2381526C7DBFE007357C9 /* Info.plist */,
 				05E2381226C7DBFE007357C9 /* Preview Content */,
+				05F560D526C7E294004E4697 /* ContentView.swift */,
 			);
 			path = "Finish Line Dash!";
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05E2380F26C7DBFD007357C9 /* ContentView.swift in Sources */,
+				05F560D426C7E189004E4697 /* ScrollingVGrid.swift in Sources */,
+				05F560D126C7E189004E4697 /* ViewModel.swift in Sources */,
+				05F560D626C7E294004E4697 /* ContentView.swift in Sources */,
+				05F560D326C7E189004E4697 /* TileView.swift in Sources */,
+				05E2383826C7DC39007357C9 /* DiceView.swift in Sources */,
 				05E2380D26C7DBFD007357C9 /* Finish_Line_Dash_App.swift in Sources */,
+				05F560D226C7E189004E4697 /* PlayerView.swift in Sources */,
+				05F560CC26C7E17E004E4697 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
